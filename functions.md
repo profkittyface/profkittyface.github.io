@@ -1,5 +1,5 @@
 # Functions
-Functions are blocks of code that are called and return a value. They are formatted with *def* (Short for define) followed by a name and parameters. Parameters are what a function "takes in" before returning a value.
+Functions are blocks of code that are called and return a value. They are formatted with **def** (Short for define) followed by a name and parameters. Parameters are what a function "takes in" before returning a value.
 
 ## Formatting
 Let's look at a function that takes a number and returns its square.
@@ -31,4 +31,16 @@ def say_hello(greeting, name):
   print(greeting + ' ' + name)
 say_hello(name="Chuck", greeting="Hello")
 >> "Hello Chuck"
+```
+
+## Exercise Question 1
+```python
+new_items = ['Apple', 'Orange', 'Pear', 'Grapes']
+inventory = {'Apple': 5, 'Pear': 3, 'Grapes': 6}
+
+def add_to_inventory(new_items, inventory):
+    # For each item in the new_items list,
+    # increment the inventory dictionary by 1
+    # If the item doesn't exist, add it to the inventory
+    return inventory
 ```
